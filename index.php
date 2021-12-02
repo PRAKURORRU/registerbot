@@ -27,7 +27,7 @@ function sendmessage($cid,$text,$mode,$reply)
     ]);
 }
 
-$connect = mysqli_connect('localhost','avtoapi_domen','Azizbek18','avtoapi_domen');
+$connect = mysqli_connect('localhost','NAME','PASSWORD','NAME');
 if ($connect) {
     echo "ulandi!";
 }else{
