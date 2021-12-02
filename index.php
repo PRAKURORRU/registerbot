@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set("asia/Tashkent");
-$token = '5019052617:AAF8u11RgLNS5WaroJkwbZ5Y_6AsPZumlFQ';
+$token = 'TOKEN';
 $admin = ["id"];
 
 function bot($method,$datas=[]){
