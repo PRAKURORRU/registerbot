@@ -193,5 +193,3 @@ if ($user['step'] == "pass") {
     ]);mysqli_query($connect,"UPDATE users set step = 'pass' where user_id = $cid");
  }
 }
-//xatoliklar uchun uzur ozgina xayajon bo'lyapti
-///Registratsiya va kirish bo'limli bot kodi!!!
